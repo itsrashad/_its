@@ -22,7 +22,7 @@ Getting Started
 
 If you want to keep it simple, head over to http://itsrashad.info and generate your `_its` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
 
-If you want to set things up manually, download `_its` from GitHub. The first thing you want to do is copy the `_its` directory and change the name to something else (like, say, `megatherium-is-awesome`), and then you'll need to do a five-step find and replace on the name in all the templates.
+If you want to set things up manually, download `_its` from GitHub. The first thing you want to do is copy the `_its` directory and change the name to something else (like, say, `its-awesome`), and then you'll need to do a five-step find and replace on the name in all the templates.
 
 1. Search for `'_its'` (inside single quotations) to capture the text domain.
 2. Search for `_its_` to capture all the function names.
@@ -32,11 +32,11 @@ If you want to set things up manually, download `_its` from GitHub. The first th
 
 OR
 
-* Search for: `'_its'` and replace with: `'megatherium-is-awesome'`
-* Search for: `_its_` and replace with: `megatherium_is_awesome_`
-* Search for: `Text Domain: _its` and replace with: `Text Domain: megatherium-is-awesome` in style.css.
-* Search for: <code>&nbsp;_its</code> and replace with: <code>&nbsp;Megatherium_is_Awesome</code>
-* Search for: `_its-` and replace with: `megatherium-is-awesome-`
+* Search for: `'_its'` and replace with: `'its-awesome'`
+* Search for: `_its_` and replace with: `its_awesome_`
+* Search for: `Text Domain: _its` and replace with: `Text Domain: its-awesome` in style.css.
+* Search for: <code>&nbsp;_its</code> and replace with: <code>&nbsp;Its_Awesome</code>
+* Search for: `_its-` and replace with: `its-awesome-`
 
 Then, update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
 
